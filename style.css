@@ -1,0 +1,254 @@
+
+
+
+/* Paleta de Colores:
+
+Rojo:
+  #ff124f 
+Rosado Intenso:  
+  #ff00a0 
+Rosado Suave:  
+  #fe75fe 
+Morado:
+  #7a04eb 
+Azul Oscuro:
+  #120458 
+    
+*/
+
+/* Formato visual - Training Ground */
+
+h1{
+    background-color: #7a04eb;
+    color: #fe75fe;
+    font-family: 'Jura', sans-serif;
+    font-size:32px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+h2{
+    background-color: #ff124f;
+    color: #fe75fe ;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+h3{
+    background-color: #7a04eb;
+    color: #fe75fe ;
+    font-family: 'Jura', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+#titulo-inferior{
+    margin-top: 35px;
+    
+}
+
+#p1{
+    margin-bottom: 35px;
+}
+
+p{
+   color: #fe75fe;
+   font-family: 'Jura', sans-serif;
+   font-size: 18px;
+   text-align: center;
+
+}
+
+*{
+    background-color: #120458
+}
+
+/* Fín Formato visual - Training Ground */
+
+
+/* Contenedor Flex - */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: 70%;
+    justify-content: space-between  ;
+    justify-content: center;
+    height: 620px;
+
+}
+/* FIN Contenedor Flex - */
+
+/* Training Gate */
+
+.training-gate{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
+    
+
+}
+
+.training-gate:hover{
+    cursor: pointer;
+    opacity: 75%;
+
+}
+
+
+
+
+/* AQUI TENGO PROBLEMA - NO PUEDO UTILIZAR Propiedades Hover para los elementos de forma especifica. AYUDA */
+
+/* Imagen Sunset */
+
+}
+.training-gate #sunset:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+/* Imagen Sunset */
+
+/* Imagen Paranoia */
+
+  
+}
+.training-gate #paranoia:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+/* Imagen Paranoia */
+
+/*  Imagen Dios Griego */
+
+}
+.training-gate #diosgrioego :hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+/*  Imagen Dios Griego */
+
+
+
+
+/* TRAINING GROUND 2 */
+
+.container-2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#blade-runner-girl{
+    border-radius: 20px;
+  
+
+}
+
+
+
+/* TRAINING GROUND 1 */
+
+.container-3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#terraza{
+    border-radius: 20px;
+  
+
+}
+
+
+
+
+/* TRAINING GROUND 4 */
+
+.container-4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sphere-background{
+    background-color: black;
+}
+
+#blade-runner-girl{
+    border-radius: 20px;
+  
+
+}
+
+
+#city-rain{
+    border-radius: 20px;
+  
+
+}
+
+
+
+.box-test{
+    border-width: 1px 2px 5px 2px;
+    border-color: #fe75fe;
+    border-style: solid;
+    border-bottom-color: #7a04eb ;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+   
+
+}
+
+.box-test:hover{
+    border-width: 1px 2px 5px 2px;
+    border-color: #fe75fe;
+    border-style: outset;
+    border-bottom-color: #7a04eb ;
+    width: 200px;
+    margin-right: auto;
+    margin-left: 650px;
+    opacity: 70%;
+
+    
+    
+   
+
+}
+
+.test-zone{
+    width:600px;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.test-zone:hover{
+    width:600px;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:5%;
+    
+
+}
